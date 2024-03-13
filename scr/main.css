@@ -1,0 +1,61 @@
+#home{
+    display: flex;
+    min-height:calc(188vh - 91px);
+    position:relative ;
+}
+
+#cta{
+    width: 45%;
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    margin-top: 5%;
+}
+
+#cta .title{
+    font-size: 2rem;
+    color: #1d1d1d
+}
+
+#cta .title span{
+    color: #ca1c05
+}
+
+#cta .subtitle span{
+    color: #c51111
+}
+
+#cta-buttons{
+    display: flex;
+    gap: 24px
+}
+
+#cta-buttons a{
+    text-decoration: none;
+    color: #1d1d1d
+}
+
+#banner {
+    display: flex;
+    align-items: start;
+    justify-content: end;
+    width: 100%;
+    z-index: 2;
+
+}
+#banner img{
+    height: 80%;
+    width: fit-content;
+    margin-right: -60px;
+
+}
+.shape {
+    background-color: #f1b9b9;
+    width: 60%;
+    height: 75%;
+    position: absolute;
+    border-radius: 30% 30% 0% 20% ;
+    top:0;
+    right: 0;
+    z-index: 1;
+}

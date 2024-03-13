@@ -1,0 +1,52 @@
+#nos{
+    min-height: calc(100vh - 91px);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+
+#nos_img img {
+    max-width: 100%; 
+    height: auto;
+}
+
+#nos.section-subtitle{
+    font-size: 3rem;
+}
+
+#nos.sectio-title{
+    font-size: 4rem;
+    color: #bd0303;
+}
+
+
+#formulario {
+    min-height: calc(100vh - 91px);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    text-align: center;
+    gap: 24px;
+}
+
+.form-title {
+    font-size: 1.563rem;
+    margin-bottom: 10px;
+    color: #bd0303;
+}
+
+.form-subtitle {
+    font-size: 1.563rem;
+    margin-bottom: 20px;
+}
+
+form div {
+    margin-bottom: 20px; 
+}
+form button {
+    margin: 0 auto;
+    display: block;
+}
+
